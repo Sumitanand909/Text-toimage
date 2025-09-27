@@ -1,12 +1,71 @@
-# React + Vite
+# Text-to-image
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application that transforms text prompts into stunning images using AI, with user authentication, credit purchases, and engaging UI components built with React, Tailwind CSS, and Vite.
+This project enables users to generate unique AI-driven images from text prompts in a seamless web app. Featuring authentication, credit-based usage, responsive design, and intuitive UI, it streamlines creative image generation for personal, artistic, and business needs.
 
-Currently, two official plugins are available:
+# Features
+-  Generate images from creative text prompts
+-  User authentication (Login and Register)
+-  Credit-based image generation system
+-  Purchase credits through various plans
+-  Responsive, attractive UI using Tailwind CSS and motion animations
+-  Customer testimonials and step-by-step flow
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Installation
+Clone the repository
 
-## Expanding the ESLint configuration
+# text
+git clone https://github.com/your-username/ai-image-generator.git
+Navigate to the project directory
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# text
+cd ai-image-generator
+Install dependencies
+
+# text
+npm install
+Configure environment variables
+
+Copy .env.example to .env and fill in your API endpoints, e.g.:
+
+# text
+VITE_BACKENDURL=https://your-api-url.com/
+Run the development server
+
+# text
+npm run dev
+
+
+# Usage
+
+-  Generate Images: Enter a prompt and use available credits to generate unique images.
+-  Purchase Credits: Buy additional credits to continue generating images.
+-  Authentication: Create an account or log in to use the service and manage your credits.
+-  Responsive Design: Use on both desktop and mobile devices.
+
+
+# Project Structure
+/components — UI and functional components: Navbar, Header, Steps, Testimonials, BuyCredit, Result
+/context — Global state management with React Context API (for authentication and credits)
+/assets — Icons and image assets (used by components)
+main.jsx and vite.config.js — Entrypoint and configuration
+
+
+# Technologies Used
+React
+Tailwind CSS
+Vite
+Axios
+React Router
+Framer Motion
+
+
+# Contribution
+Contributions are welcome! Open issues or pull requests for new features, bug fixes, or suggestions.
+
+
+# License
+MIT License. See LICENSE file for details.
+
+# Acknowledgements
+Thanks to all contributors and the open source community.
