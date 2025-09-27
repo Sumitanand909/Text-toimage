@@ -14,27 +14,22 @@ This project enables users to generate unique AI-driven images from text prompts
 # Installation
 Clone the repository
 
-# text
 git clone https://github.com/your-username/ai-image-generator.git
-Navigate to the project directory
 
-# text
+Navigate to the project directory
 cd ai-image-generator
+
 Install dependencies
 
-# text
 npm install
-Configure environment variables
 
+Configure environment variables
 Copy .env.example to .env and fill in your API endpoints, e.g.:
 
-# text
 VITE_BACKENDURL=https://your-api-url.com/
+
 Run the development server
-
-# text
 npm run dev
-
 
 # Usage
 
