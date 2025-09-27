@@ -13,7 +13,7 @@ This project enables users to generate unique AI-driven images from text prompts
 
 # Installation
 -  Clone the repository
--  git clone https://github.com/your-username/ai-image-generator.git
+-  git clone https://github.com/Sumitanand909/ai-image-generator.git
 
 # Navigate to the project directory
 -  cd ai-image-generator
