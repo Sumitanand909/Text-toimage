@@ -1,5 +1,7 @@
 # Text-to-image
 
+-  Live Link: http://text-toimage.netlify.app
+
 A modern web application that transforms text prompts into stunning images using AI, with user authentication, credit purchases, and engaging UI components built with React, Tailwind CSS, and Vite.
 This project enables users to generate unique AI-driven images from text prompts in a seamless web app. Featuring authentication, credit-based usage, responsive design, and intuitive UI, it streamlines creative image generation for personal, artistic, and business needs.
 
