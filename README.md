@@ -12,24 +12,21 @@ This project enables users to generate unique AI-driven images from text prompts
 -  Customer testimonials and step-by-step flow
 
 # Installation
-Clone the repository
+-  Clone the repository
+-  git clone https://github.com/your-username/ai-image-generator.git
 
-git clone https://github.com/your-username/ai-image-generator.git
+# Navigate to the project directory
+-  cd ai-image-generator
 
-Navigate to the project directory
-cd ai-image-generator
+# Install dependencies
+-  npm install
 
-Install dependencies
+# Configure environment variables
+-  Copy .env.example to .env and fill in your API endpoints,
+-   e.g.: VITE_BACKENDURL=https://your-api-url.com/
 
-npm install
-
-Configure environment variables
-Copy .env.example to .env and fill in your API endpoints, e.g.:
-
-VITE_BACKENDURL=https://your-api-url.com/
-
-Run the development server
-npm run dev
+# Run the development server
+-  npm run dev
 
 # Usage
 
@@ -40,27 +37,27 @@ npm run dev
 
 
 # Project Structure
-/components — UI and functional components: Navbar, Header, Steps, Testimonials, BuyCredit, Result
-/context — Global state management with React Context API (for authentication and credits)
-/assets — Icons and image assets (used by components)
-main.jsx and vite.config.js — Entrypoint and configuration
+-  /components — UI and functional components: Navbar, Header, Steps, Testimonials, BuyCredit, Result
+-  /context — Global state management with React Context API (for authentication and credits)
+-  /assets — Icons and image assets (used by components)
+-  main.jsx and vite.config.js — Entrypoint and configuration
 
 
 # Technologies Used
-React
-Tailwind CSS
-Vite
-Axios
-React Router
-Framer Motion
+-  React
+-  Tailwind CSS
+-  Vite
+-  Axios
+-  React Router
+-  Framer Motion
 
 
 # Contribution
-Contributions are welcome! Open issues or pull requests for new features, bug fixes, or suggestions.
+-  Contributions are welcome! Open issues or pull requests for new features, bug fixes, or suggestions.
 
 
 # License
-MIT License. See LICENSE file for details.
+-  MIT License. See LICENSE file for details.
 
 # Acknowledgements
-Thanks to all contributors and the open source community.
+-  Thanks to all contributors and the open source community.
